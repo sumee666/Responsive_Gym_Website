@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buri Ashok Kumar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1 id="name">Buri Ashok Kumar</h1>
+            <nav>
+                <ul class="nav-bar">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#recommendations">Recommendations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="profile_01.jpg" alt="Profile Image" class="profile-image">
+                <p>
+                    I am Buri Ashok Kumar, a passionate and driven student at Lovely Professional University, eager to embark on a fulfilling career as a full-stack developer. I am currently honing my skills in frontend technologies (e.g., HTML, CSS, JavaScript), backend technologies (e.g., Node.js, Python, Java), and databases (e.g., SQL, NoSQL). I am a quick learner with a strong work ethic and a keen interest in building innovative and user-friendly web applications. I am eager to contribute my skills and enthusiasm to a dynamic team and learn from experienced professionals in the industry.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="react_02.svg" alt="React Logo">
+                    <p>React</p>
+                </div>
+                <div class="skill">
+                    <img src="angular_02.svg" alt="Angular Logo">
+                    <p>Angular</p>
+                </div>
+                <div class="skill">
+                    <img src="node_js_02.svg" alt="Node.js Logo">
+                    <p>Node.js</p>
+                </div>
+                <div class="skill">
+                    <img src="my_sql_01.png" alt="MySQL Logo">
+                    <p>MySQL</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-container">
+                <div class="project-card">
+                    <h3>University Management System</h3>
+                    <p class="project-date">June 2023 - July 2023</p>
+                    <p class="project-description">
+                        Developed a comprehensive web-based university management system aimed at streamlining student information processes. The system featured robust login authentication and included essential functionalities such as attendance tracking, exam schedule management, and secure password handling. Through this project, I gained valuable hands-on experience in front-end web development, utilizing a technology stack that included HTML, CSS, JavaScript, Bootstrap for responsive design, and MySQL for database management.
+                    </p>
+                </div>
+                <div class="project-card">
+                    <h3>Random Quiz Application</h3>
+                    <p class="project-date">June 2024 - July 2024</p>
+                    <p class="project-description">
+                        Led a team to develop a Python-based quiz system for multiple-choice questions, utilizing Tableau, SAP, DNS, and SSL. The project enhanced my leadership, problem-solving, and teamwork skills through task distribution and collaborative brainstorming.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recommendations" class="section">
+        <div class="container">
+            <h2>Recommendations</h2>
+            <div class="recommendations-list">
+                <p>Focus on Impact and Achievements</p>
+                <p>Tailor Your Resume to Each Job Application!</p>
+                <p>Get Your Resume Reviewed</p>
+            </div>
+            <h3>Add a Recommendation:</h3>
+            <input type="text" id="recommendationInput" placeholder="Enter your recommendation">
+            <button id="addRecommendationBtn">Add Recommendation</button>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> ashok.kumar@example.com</p>
+                <p><i class="fas fa-phone"></i> +91 12345 67890</p>
+                <p><i class="fas fa-map-marker-alt"></i> Lovely Professional University, Punjab, India</p>
+            </div>
+        </div>
+    </section>
+<section class="home-button-section">
+    <div class="container">
+        <button onclick="scrollToTop()" class="home-button">
+            <img src="icons8-home-24.png" alt="Home Icon" class="home-icon">
+        </button>
+    </div>
+</section>
+    
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Buri Ashok Kumar. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="popup" class="popup">
+        <p>Recommendation added successfully!</p>
+        <button id="closePopup">Close</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
